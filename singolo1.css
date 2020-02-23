@@ -1,0 +1,129 @@
+* {
+font-family: 'Lato', sans-serif;
+text-align: justify;
+}
+
+/*************************************************************/
+
+header {
+  height: 95px;
+  width: 1020px;
+  background: linear-gradient( #2d303a 89px, #2c3445 6px);
+  color: #f2f2f2;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  align-items: center;
+
+}
+.menu li {
+  display: inline-block;
+  font-size: 12px;
+  padding-left: 24px;
+}
+
+.logo {
+font-size: 12px;
+padding-right: 325px;
+padding-bottom: 7px;
+font-weight: 400;
+}
+
+.menu a{
+  font-size: 12px;
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+.red {
+color: #f06c64;
+}
+/*************************************************************/
+
+.slider {
+  height: 600px;
+  width: 1020px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  background: linear-gradient( #f06c64 595px, #ff676c 5px);
+}
+.slide-left {
+  display: inline-block;
+  cursor: pointer;
+  margin-left: -10px;
+  margin-bottom: 5px;
+}
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.horizontal {
+ margin-left: 40px;
+ margin-top: -9px
+}
+.vertical {
+ margin-right: 35px;
+ margin-top: -8px
+}
+.slide-right {
+  display: inline-block;
+  cursor: pointer;
+  margin-right: -10px;
+  margin-bottom: 5px;
+}
+
+/*************************************************************/
+
+
+.footer {
+ height: 502px;
+ width: 1020px;
+ color: #666d89;
+ background: linear-gradient( #f2f2f2 494px, #ffffff 6px);
+}
+.services{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.item {
+margin-bottom: -25px;
+}
+.item img {
+float:left;
+margin: 25px 20px 25px 0px;
+}
+.item p {
+font-size: 12px;
+line-height: 2;
+margin-top: -20px;
+width: 300px;
+height: 85px;
+padding-bottom: -15px;
+}
+.item h3 {
+margin-top: 15px;
+line-height:2;
+}
+.article h2 {
+font-size: 32px;
+font-weight: 600;
+line-height: 0;
+margin-top: 45px;
+}
+.article p {
+line-height: 25pt;
+font-size: 18px;
+margin-top: 35px;
+}
