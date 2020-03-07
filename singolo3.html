@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="singolo3.css">
+    <title>Singolo3</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="article">
+            <h1>Get a Quote</h1>
+            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+        </div>
+
+        <div class="form">
+            
+            
+                <form action="" method="get" name="form">
+                <input type="input" name="form" placeholder="Name (Required)" required pattern="([A-Za-z0-9-_]{3,18})"></br>
+                <input type="email" name="form" placeholder="Email (Required)" required></br>
+                <input type="input" name="form" placeholder="Subject" maxlength="26"></br>
+                <textarea name="form" placeholder="Describe your project in detail..." maxlength="100"></textarea></br>
+                <input type="submit" name="form" value="Submit"></br>
+                </form>
+        </div>
+            <div class="info">
+        
+            <h3>Contact Information</h3>
+        
+            <p>Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. </p>
+        
+                <div class="callback">
+                    <div><img src="assets/location.png"><a href="#">Elm St. 14/05 Lost City</a></body></br></div>
+                    <div><img src="assets/phone.png"><a href="tel:+035283318635">03528 331 86 35</a></br></div>
+                    <div><img src="assets/mail.png"><a href="mail:info@singolo.com">info@singolo.com</a></br></div>
+                </div>
+        
+            </div>
+
+    </div>
+    <div class="footer">
+
+        <span>© Copyright 2013</span>
+
+        <div class="social">
+            <a href = "#"><img src="assets/facebook.png"></a>
+            <a href = "#"><img src="assets/google+.png"></a>
+            <a href = "#"><img src="assets/twitter.png"></a>
+            <a href = "#"><img src="assets/linkedin.png"></a>
+        </div>
+
+    </div>
+    <script>
+        function submitForm(){
+            let form = document.getElementById('form');
+            document.form.submit();
+        }
+    </script>
+</html>
