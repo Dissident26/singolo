@@ -1,0 +1,111 @@
+* {
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+    margin: 0;    
+}
+.container {
+    background: linear-gradient( #f06c64 648px, #ea676b 6px); 
+    width: 1020px;
+    height: 654px;
+    color: #f0d8d9;
+}
+.article {
+    padding-top: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+  .article p {
+    padding-top: 15px;
+    line-height: 1.8;
+    font-size: 18px;
+}
+  .article h1 {
+        font-size: 30px;
+    }
+.callback {
+        margin-top: 25px;
+        font-size: 10px;
+      
+    }
+    .callback div {
+        margin-bottom: 7px;
+    }
+    .callback img {
+        margin-right: 12px;
+    }
+    .callback a {
+        text-decoration: none;
+        color: #f0d8d9;
+        font-size: 12px;
+    }
+.form {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.info {
+    margin-left: 680px;
+    margin-top: -420px;
+}
+  .info p {
+    font-size: 12px;
+    margin-top: 10px;
+    line-height: 1.9;
+    padding-right: 40px;
+}
+textarea {
+    border-radius: 5px;
+    width: 615px;
+    height: 195px;
+    margin-bottom: 17px;
+    background: #d6564f;
+    border: 1px solid #d6564f;
+    color:  #f48c8f;
+    resize: none;
+}
+input[type="input"],
+input[type="email"] {
+    border-radius: 5px;
+    width: 615px;
+    height: 33px;
+    margin-bottom: 17px;
+    background: #d6564f;
+    border: 1px solid #d6564f;
+    color:  #f48c8f;
+}
+::placeholder {
+    color:  #f48c8f;
+    font-size: 12px;
+    padding-left: 12px;
+    padding-top: 7px;
+}
+.footer {
+    background: #2d303a;
+    width: 1020px;
+    height: 76px;
+    color: #666d89;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+}
+  .footer span {
+    padding-left: 40px;
+}
+.social {
+    padding-right: 40px;
+}
+  .social a {
+    padding-left: 5px;
+}
+input[type="submit"]{
+    color:  #f48c8f;
+    border-radius: 5px;
+    background: #d6564f;
+    border: 1px solid #d6564f;
+    height: 33px;
+    font-size: 12px;
+    padding-left: 12px;
+    width: 60px;
+    cursor: pointer;
+}
